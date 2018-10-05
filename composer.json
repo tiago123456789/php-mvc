@@ -1,0 +1,18 @@
+{
+  "name": "framework/mvc",
+  "require": {
+    "php": ">=7.1"
+  },
+  "authors": [
+    {
+      "name": "Tiago Rosa da costa",
+      "email": "tiagorosadacost@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "vendor/Framework/",
+      "App\\": "App/"
+    }
+  }
+}
